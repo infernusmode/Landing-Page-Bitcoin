@@ -3,6 +3,7 @@
 
 
 /*HEADER Start*/
+
 body {
     margin: 0px;
     padding: 0px;
@@ -40,10 +41,29 @@ header {
     font-size: 20px;
 }
 
+.header-links ul li a:hover {
+    text-decoration: underline;
+    color: darkgoldenrod;
+}
+
 .header-links ul li a {
     text-decoration: none;
     color: white;
 }
+
+.rotate {
+    animation: rotation infinite 3s linear;
+}
+
+@keyframes rotation{
+    from{
+      transform:rotate(0deg);
+    }
+
+    to{
+      transform:rotate(360deg);
+    }
+  }
 
 /*HEADER Ends*/
 
@@ -76,6 +96,12 @@ main img {
     padding: 10px;
 }
 
+.button-information:hover {
+    transition: 0.1s ;
+    font-size: larger;
+    color: darkgoldenrod;
+}
+
 /*First Section Ends*/
 
 /*2d Section Start*/
@@ -91,6 +117,11 @@ main img {
 .div-image {
     padding: 20px;
     text-align: center;
+}
+
+.div-image img:hover{
+    transition: 0.5s;
+    width: 200px;
 }
 
 .div-image img {
@@ -129,6 +160,21 @@ main img {
     align-self: center;
 }
 
+.information-button a {
+    text-decoration: none;
+    color: black;
+}
+
+.information-button:hover {
+    transition: 0.1s ;
+    font-size: 15px;
+}
+
+.information-button a:hover {
+    transition: 0.1s ;
+    color: darkgoldenrod;
+}
+
 /*3d Section Starts*/
 
 /*Footer Starts*/
@@ -140,6 +186,10 @@ main img {
     height: 50px;
 }
 
+.footer-content p:hover {
+    text-decoration: underline;
+    color: darkgoldenrod;
+}
 
 
 /*Main Content Ends*/
