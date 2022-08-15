@@ -1,0 +1,145 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&family=Poppins:ital@1&display=swap');
+
+
+/*HEADER Start*/
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.header-image img{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.header-image {
+    display: flex;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+}
+
+.header-links ul{
+    display: flex;
+    margin: 10px;
+    margin-right: 30px;
+    gap: 38px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.header-links ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/*HEADER Ends*/
+
+/*Main Content Starts*/
+
+/*First Section Starts*/
+
+main {
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+}
+
+
+main img {
+    width: 600px;
+    height: 400px;
+    padding: 20px;
+}
+
+.description {
+    margin: 20px;
+}
+
+.description p {
+    font-size: 20px;
+}
+
+.button-information{
+    padding: 10px;
+}
+
+/*First Section Ends*/
+
+/*2d Section Start*/
+
+.container-images {
+    display: flex;
+}
+
+.container-section h2 {
+    text-align: center;
+}
+
+.div-image {
+    padding: 20px;
+    text-align: center;
+}
+
+.div-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+/*2d Section Ends*/
+
+/*3d Section Starts*/
+
+.third-section {
+    background-color: #e5e7eb;
+    font-size: 20px;
+    padding: 50px;
+}
+
+.call-action {
+    display: flex;
+    color: black;
+    text-align: center;
+    background-color: #e5e7be;
+    border-radius: 10px;
+    width: 550px;
+    height: 80px;
+    padding: 20px;
+    margin: 50px;
+    margin-left: 350px;
+    gap: 50px;
+}
+
+.information-button {
+    width: 100px;
+    height: 60px;
+    align-self: center;
+}
+
+/*3d Section Starts*/
+
+/*Footer Starts*/
+.footer-content {
+    color: white;
+    background-color: #1f2937;
+    text-align: center;
+    font-size: 20px;
+    height: 50px;
+}
+
+
+
+/*Main Content Ends*/
